@@ -30,7 +30,34 @@ body {
   position: relative;
   border: 3px solid #050f44;
   border-radius: 25px;
+  overflow: hidden;
 
+}
+
+.intro-page::after, .intro-page::before {
+    
+  content:' ';
+  position: absolute;
+ 
+}
+.intro-page::after {
+  right: -12px;
+    background-color: #FFFAD1;
+    height: 130px;
+    border-radius: 50px;
+    top: -40px;
+    width: 30%;
+    transform: rotate(-115.49deg);
+}
+.intro-page::before {
+ 
+  left: -20px;
+    background-color: #DEEBF8;
+    height: 160px;
+    bottom: -45px;
+    width: 25%;
+    border-radius: 50px;
+    transform: rotate(-71.49deg);
 }
 
 .intro-content > .title{
@@ -65,7 +92,7 @@ color: #293264;
   margin-top: 20px;
 }
 .btn-start-quiz{
-  width: 193px;
+  width: 150px;
   height: 52px;
 
 background: #4D5B9E;
@@ -82,17 +109,3 @@ cursor: pointer;
 }
 
 
-.top-blob{
-  
-
-
-/* Lemony - medium */
-
-background: #FFFAD1;
-transform: rotate(-128.49deg);
-height: 235.00000320538274px;
-width: 297.00000405105817px;
-
-border-radius: 30px;
-
-}
