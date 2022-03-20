@@ -5,9 +5,94 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.quizzical-app{
+ 
+  align-items: center;
+}
+.intro-content{
+
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.intro-page {
+  width: 550px;
+  height: 550px;
+  background: #F5F7FB;
+  margin: auto;
+  border-radius: 0px;
+  position: relative;
+  border: 3px solid #050f44;
+  border-radius: 25px;
+
+}
+
+.intro-content > .title{
+
+font-family: 'Karla';
+font-style: normal;
+font-weight: 700;
+font-size: 31.25px;
+line-height: 37px;
+text-align: center;
+border-radius: 2px;
+color: #293264;
+}
+.intro-content > .description{
+
+height: 19px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #293264;
+
+}
+
+.intro-content > .btn-container{
+  text-align: center;
+  margin-top: 20px;
+}
+.btn-start-quiz{
+  width: 193px;
+  height: 52px;
+
+background: #4D5B9E;
+border-radius: 15px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #F5F7FB;
+cursor: pointer;
+}
+
+
+.top-blob{
+  
+
+
+/* Lemony - medium */
+
+background: #FFFAD1;
+transform: rotate(-128.49deg);
+height: 235.00000320538274px;
+width: 297.00000405105817px;
+
+border-radius: 30px;
+
 }
